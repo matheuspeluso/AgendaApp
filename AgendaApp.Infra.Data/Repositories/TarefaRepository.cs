@@ -1,5 +1,5 @@
 ﻿using AgendaApp.Domain.Entities;
-using AgendaApp.Domain.Interfacies;
+using AgendaApp.Domain.Interfacies.Repositories;
 using AgendaApp.Infra.Data.Contexts;
 
 namespace AgendaApp.Infra.Data.Repositories

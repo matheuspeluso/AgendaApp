@@ -10,7 +10,7 @@ namespace AgendaApp.Infra.Data.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");//mapeando a string de conexão
+            optionsBuilder.UseSqlServer("Data Source=localhost,1434;Initial Catalog=master;User ID=sa;Password=Coti@2025;Encrypt=False");//mapeando a string de conexão
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,6 +1,6 @@
 ﻿using AgendaApp.Domain.Entities;
 
-namespace AgendaApp.Domain.Interfacies
+namespace AgendaApp.Domain.Interfacies.Repositories
 {
     /// <summary>
     /// Contrato de métodos para o repositório de usuário
